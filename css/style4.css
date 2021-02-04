@@ -5,15 +5,17 @@ h1,h2,... sind Elementselektoren
  */
 
  
-h1 {
-	display: auto;
-	background-color:red;
-	color:black;
+ h1 {
+	border-color: red;
+	display: block;
+	font-size: 2em;
+	background-color:transparent;
+	color:red;
 	margin-bottom: 1px;
 	padding: auto;
 	text-decoration: none;
-	font-size: 160%
-	}
+	font-size: 160%		
+}
 	
 h2 {
 	background-color:green;
@@ -84,3 +86,59 @@ li	{
 	background-color: white;
 	color: Black
 }
+
+nav {
+    width: 100%;
+    height: 50px;
+    top: 0px;
+	left: 0px;
+	background:tra;
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+	}
+	
+nav ul li {
+	position: relative;
+	list-style: none;
+	height: 25px;
+	padding: 15px 0px 10px 0px;
+	width: 150px;
+	border-right: 1px solid black;
+	text-align: center;
+	float: left;
+	color: Red;
+	background-color: transparent;
+}
+nav ul li {
+	transition:all 300ms;
+	-moz-transition:all 300ms;
+	-ms-transition:all 300ms;
+	-o-transition:all 300ms;
+	-webkit-transition:all 300ms;
+	}
+
+nav ul li:hover {
+		  background:grey;
+		  }
+
+nav ul li a, nav ul li {
+				 color:orange;
+				 text-decoration:none;
+				 letter-spacing:1px;
+				 }
+
+nav ul li ul {
+	   position:absolute;
+	   top:0px;
+	   left:-1px;
+	   background:#d300d3;
+	   display:none;
+	   }
+
+nav ul li ul li {
+		  border-bottom:1px solid grey;
+		  border-left:1px solid grey;
+		  }
