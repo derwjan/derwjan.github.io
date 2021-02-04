@@ -1,0 +1,86 @@
+/*  css = cascading style sheet
+h1,h2,... sind Elementselektoren
+.bereich1 ist eine Klassendefinition, darf mehrfach verwendet werden. 
+#wichtigerText ist ein ID-Selektor, diese darf der seite nur EINMAL verwendet werden.
+ */
+
+ 
+h1 {
+	display: auto;
+	background-color:red;
+	color:black;
+	margin-bottom: 1px;
+	padding: auto;
+	text-decoration: none;
+	font-size: 160%
+	}
+	
+h2 {
+	background-color:green;
+	display: auto;
+	padding: auto;
+	text-decoration: none;
+	margin-bottom: 1px;
+	color: #030F27;
+	font-size: 130%;
+	
+	}
+h3{
+	color:transparent;
+	font-size: 0;
+}	
+	/* background-image:url("img/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg"); */
+
+body {
+	
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color:#FFCC00;
+	font-family:Tahoma;
+	font-size:110%;
+}
+
+.wrapper {
+	width: 950px;
+	margin:0px auto 0px auto;
+	padding:15px;
+	background-color:midnightblue;
+	color: greenyellow;
+}
+
+a:link {
+			display: auto;
+			background-color:orange;
+			color:red;
+			margin-bottom: 1px;
+			padding: auto;
+			text-decoration: none;
+}
+
+a:visited{
+	color:black
+}
+
+a:focus {
+	color:darkred;
+}
+
+a:hover {
+	background-color: red;
+	color:gold;
+}
+
+a:active {
+	color:indigo;
+}
+
+.br	{
+	background-color: transparent;
+	color:transparent;
+}
+
+li	{
+	background-color: white;
+	color: Black
+}
