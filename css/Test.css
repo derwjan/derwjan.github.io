@@ -1,0 +1,40 @@
+.container {
+    clear: both;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background: #024c68;
+    font-family: Verdana;
+    font-size: 1em;
+    }
+    
+    #navi {
+    float: left;
+    position: relative;
+    left: 50%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    }
+    
+    #navi li {
+    float: left;
+    position: relative;
+    right: 50%;
+    }
+    
+    #navi a {
+    width: auto;
+    display: block;
+    padding:0 10px;
+    line-height: 1.5em;
+    color: #fff;
+    background: #ff8500;
+    border:1px solid #024c68;
+    text-decoration:none;
+    }
+    
+    #navi a:hover {
+    background: #ffa340;
+    color: #000;
+    }
