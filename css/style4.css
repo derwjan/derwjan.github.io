@@ -79,7 +79,7 @@ body {
 	position:absolute;
 	top:1px;
 	left:0;
-	width:100vw;
+	width:auto;
 	z-index:1;
 	background:transparent;
 	opacity:0.85;
