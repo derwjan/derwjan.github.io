@@ -75,9 +75,9 @@ body {
   }
   
   .header-overlay{
-	height:100vh;
-	position:relative;
-	top:0;
+	height:auto;
+	position:static;
+	top:1px;
 	left:0;
 	width:100vw;
 	z-index:1;
