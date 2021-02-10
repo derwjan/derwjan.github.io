@@ -14,7 +14,8 @@ h1,h2,... sind Elementselektoren
 	margin-bottom: 1px;
 	padding: auto;
 	text-decoration: none;
-	font-size: 160%		
+	font-size: 160%;
+	margin-top: auto;	
 }
 	
 h2 {
@@ -90,7 +91,7 @@ body {
   
   .header-content h1{
 	font-size:50px;
-	margin-bottom:0;
+	margin-top:0;
   }
   
   .header-content p{
