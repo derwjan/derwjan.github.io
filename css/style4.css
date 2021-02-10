@@ -86,6 +86,8 @@ body {
   
   .header-content{
 	z-index:2;
+	height:200px;
+	width: 200px;
   }
   
   .header-content h1{
