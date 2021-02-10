@@ -1,0 +1,209 @@
+/*  css = cascading style sheet
+h1,h2,... sind Elementselektoren
+.bereich1 ist eine Klassendefinition, darf mehrfach verwendet werden. 
+#wichtigerText ist ein ID-Selektor, diese darf der seite nur EINMAL verwendet werden.
+ */
+
+ 
+ h1 {
+	border-color: red;
+	display: block;
+	font-size: 2em;
+	background-color:transparent;
+	color:red;
+	margin-bottom: 1px;
+	padding: auto;
+	text-decoration: none;
+	font-size: 160%;	
+}
+	
+h2 {
+	background-color:green;
+	display: auto;
+	padding: auto;
+	text-decoration: none;
+	margin-bottom: 1px;
+	color: #030F27;
+	font-size: 130%;
+	
+	}
+h3{
+	color:transparent;
+	font-size: 0;
+}	
+	/* background-image:url("img/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg"); */
+
+body {
+	
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color:#FFCC00;
+	font-family:Tahoma;
+	font-size:110%;
+	overflow-x:hidden;
+}
+
+.v-header{
+	height:100vh;
+	display:flex;
+	align-items:center;
+	color:#fff;
+  }
+  
+  .container{
+	max-width:960px;
+	padding-left:1rem;
+	padding-right:1rem;
+	margin:auto;
+	text-align:center;
+  }
+  
+  .fullscreen-video-wrap{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+  }
+  
+  .fullscreen-video-wrap video{
+	min-height:100%;
+	min-width:100%;
+  }
+  
+  .header-overlay{
+	height:100vh;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	z-index:1;
+	background:transparent;
+	opacity:0.85;
+  }
+  
+  .header-content{
+	z-index:2;
+  }
+  
+  .header-content h1{
+	font-size:50px;
+	margin-bottom:0;
+  }
+  
+  .header-content p{
+	font-size:1.5rem;
+	display:block;
+	padding-bottom:2rem;
+  }
+
+
+
+.wrapper {
+	width: 950px;
+	margin:0px auto 0px auto;
+	padding:15px;
+	background-color:midnightblue;
+	color: greenyellow;
+}
+
+a:link {
+			display: auto;
+			background-color:orange;
+			color:red;
+			margin-bottom: 1px;
+			padding: auto;
+			text-decoration: none;
+}
+
+a:visited{
+	color:black
+}
+
+a:focus {
+	color:darkred;
+}
+
+a:hover {
+	background-color: red;
+	color:gold;
+}
+
+a:active {
+	color:indigo;
+}
+
+.br	{
+	background-color: transparent;
+	color:transparent;
+}
+
+li	{
+	background-color: white;
+	color: Black
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    top: 0px;
+	left: 0px;
+	background:tra;
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+	}
+	
+nav ul li {
+	position: relative;
+	list-style: none;
+	height: 25px;
+	padding: 15px 0px 10px 0px;
+	width: 150px;
+	border-right: 1px solid black;
+	text-align: center;
+	float: left;
+	color: Red;
+	background-color: transparent;
+}
+nav ul li {
+	transition:all 300ms;
+	-moz-transition:all 300ms;
+	-ms-transition:all 300ms;
+	-o-transition:all 300ms;
+	-webkit-transition:all 300ms;
+	}
+
+nav ul li:hover {
+		  background:grey;
+		  }
+
+nav ul li a, nav ul li {
+				 color:orange;
+				 text-decoration:none;
+				 letter-spacing:1px;
+				 }
+
+nav ul li ul {
+	   position:absolute;
+	   top:0px;
+	   left:-1px;
+	   background:#d300d3;
+	   display:none;
+	   }
+
+nav ul li ul li {
+		  border-bottom:1px solid grey;
+		  border-left:1px solid grey;
+		  }
+
+		  @media(max-width:960px){
+			.container{
+			  padding-right:3rem;
+			  padding-left:3rem;
+			}
+		  }
