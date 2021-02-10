@@ -14,8 +14,7 @@ h1,h2,... sind Elementselektoren
 	margin-bottom: 1px;
 	padding: auto;
 	text-decoration: none;
-	font-size: 160%;
-	margin-top: auto;	
+	font-size: 160%;	
 }
 	
 h2 {
@@ -75,11 +74,11 @@ body {
   }
   
   .header-overlay{
-	height:auto;
-	position:absolute;
-	top:1px;
+	height:100vh;
+	position: absolute;
+	top:0;
 	left:0;
-	width:auto;
+	width:100vw;
 	z-index:1;
 	background:transparent;
 	opacity:0.85;
@@ -91,7 +90,7 @@ body {
   
   .header-content h1{
 	font-size:50px;
-	margin-top:0;
+	margin-bottom:0;
   }
   
   .header-content p{
