@@ -76,7 +76,7 @@ body {
   
   .header-overlay{
 	height:auto;
-	position:static;
+	position:absolute;
 	top:1px;
 	left:0;
 	width:100vw;
