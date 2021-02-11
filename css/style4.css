@@ -108,7 +108,7 @@ body {
 	margin:0px auto 0px auto;
 	padding:15px;
 	background-color:transparent;
-	color: darkorange;
+	color: greenyellow;
 }
 
 a:link {
@@ -209,3 +209,7 @@ nav ul li ul li {
 			  padding-left:3rem;
 			}
 		  }
+
+p {
+	color: darkorange;
+}
