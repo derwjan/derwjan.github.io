@@ -33,14 +33,14 @@ h3{
 }	
 	/* background-image:url("img/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg"); */
 
-body {
+body, html {
 	
 	background-image: url("../img/bg.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	color:#FFCC00;
 	font-family:Tahoma;
-	font-size:110%;
+	font-size:62,5%;
 	overflow-x:hidden;
 }
 
@@ -86,10 +86,15 @@ body {
   
   .header-content{
 	z-index:2;
-	height:100%;
+	height: 70px;
+	height: 7rem;
 	width: 100%;
+	transition: 200ms all;
+	text-align: center;
+	position: fixed;
   }
   
+  }
   .header-content h1{
 	font-size:50px;
 	margin-bottom:0;
@@ -107,7 +112,7 @@ body {
 	width: 950px;
 	margin:0px auto 0px auto;
 	padding:15px;
-	background-color:midnightblue;
+	background-color:transparent;
 	color: greenyellow;
 }
 
@@ -148,20 +153,26 @@ li	{
 }
 
 nav {
-    width: 100%;
+    display: inline-block;
+	width: 100%;
     height: 50px;
     top: 0px;
 	left: 0px;
 	background:tra;
 }
 
-nav ul {
+.header-content ul {
 	margin:0;
 	padding:0;
+	transition: all 300ms;
+	display: inline-block;
 	}
 	
-nav ul li {
+.header-content ul li {
+	margin: 0;
+	padding: 0;
 	position: relative;
+	transition: all 300ms;
 	list-style: none;
 	height: 25px;
 	padding: 15px 0px 10px 0px;
@@ -172,7 +183,18 @@ nav ul li {
 	color: Red;
 	background-color: transparent;
 }
-nav ul li {
+.header-content nav ul li a{
+	display: inline-block;
+	padding: 2,17rem;
+	float: left;
+	min-width: 12rem;
+	text-align: center;
+	font-size: 2rem;
+	margin 0 1px 0 0;
+	text-decoration: none;
+	color:white;
+	background-color: red;
+	font-weight: 300;
 	transition:all 300ms;
 	-moz-transition:all 300ms;
 	-ms-transition:all 300ms;
@@ -180,23 +202,20 @@ nav ul li {
 	-webkit-transition:all 300ms;
 	}
 
-nav ul li:hover {
+nav ul li:hover: a {
 		  background:grey;
 		  }
 
-nav ul li a, nav ul li {
-				 color:orange;
-				 text-decoration:none;
-				 letter-spacing:1px;
+nav ul li ul  {
+				 overflow: hidden;
+				 position:absolute;
+				 top: 100%;
+				 left: 0;
+				 width: 100%;
+				 transition: 300ms all
+				 max-height: 0;
 				 }
 
-nav ul li ul {
-	   position:absolute;
-	   top:0px;
-	   left:-1px;
-	   background:#d300d3;
-	   display:none;
-	   }
 
 nav ul li ul li {
 		  border-bottom:1px solid grey;
@@ -209,3 +228,7 @@ nav ul li ul li {
 			  padding-left:3rem;
 			}
 		  }
+
+.p {
+	color: darkorange;
+}
