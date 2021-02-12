@@ -232,3 +232,6 @@ nav ul li ul li {
 .p {
 	color: darkorange;
 }
+nav ul li:hover > ul {
+	max-height: 700px;
+}
