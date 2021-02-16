@@ -161,6 +161,7 @@ nav ul {
 	}
 	
 nav ul li {
+	display: block;
 	position: relative;
 	list-style: none;
 	height: 25px;
