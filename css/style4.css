@@ -79,7 +79,7 @@ body {
 	left:0;
 	width:100vw;
 	z-index:1;
-	background:transparent;
+	background:greenyellow;
 	opacity:0.85;
   }
   
@@ -112,7 +112,7 @@ body {
 
 a:link {
 			display: auto;
-			background-color:greenyellow;
+			background-color:darkgreen;
 			color:red;
 			margin-bottom: 1px;
 			padding: auto;
