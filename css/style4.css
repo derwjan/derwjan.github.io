@@ -169,7 +169,7 @@ nav ul li {
 	text-align: center;
 	float: left;
 	color: Red;
-	background-color: transparent;
+	background-color:aliceblue;
 }
 nav ul li {
 	transition:all 300ms;
