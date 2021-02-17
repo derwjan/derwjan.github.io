@@ -264,9 +264,9 @@ header nav#normal ul li:hover > a {
 header nav#normal ul li ul {
   overflow: hidden;
   position: absolute;
-  top: 100%;
+  top: 10%;
   left: 0;
-  width: 100%;
+  width: 10%;
   transition: 300ms all;
   max-height: 0;
 }
