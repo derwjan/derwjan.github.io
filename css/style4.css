@@ -214,10 +214,6 @@ nav ul li ul li {
 .p {
 	color: darkorange;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
     background-image: url(https://wallpaperaccess.com/full/216286.jpg);
     -webkit-background-size: cover;
