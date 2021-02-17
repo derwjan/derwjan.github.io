@@ -33,8 +33,7 @@ h3{
 	/* background-image:url("img/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg"); */
 
 body {
-	
-	background-image: url("../img/IMG_20191119_205933.jpg");
+	background-image: url("../img/216286.jpg");
 	background-size:auto;
 	background-attachment: fixed;
 	color:#FFCC00;
@@ -215,7 +214,7 @@ nav ul li ul li {
 	color: darkorange;
 }
 body{
-    background-image: url(https://wallpaperaccess.com/full/216286.jpg);
+    background-image: url();
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
