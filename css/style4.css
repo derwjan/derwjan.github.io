@@ -239,13 +239,13 @@ body{
     color: #fff;
     font-size: 14px;
     position: relative;
-    font-family: big john;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #normal ul li:hover{
     background: crimson;
 }
 #normal ul ul{
-    display: mone;
+    display: none;
 }
 #normal ul li:hover > ul{
     display: block;
