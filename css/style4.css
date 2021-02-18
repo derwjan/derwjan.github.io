@@ -229,7 +229,7 @@ body{
     height: 50px;
     line-height: 50px;
     text-align: center;
-    float: left;
+    float: none;
     color: #fff;
     font-size: 14px;
     position: relative;
@@ -246,7 +246,6 @@ body{
 }
 .header-content ul li:hover > ul{
     display: block;
-	top: 0px;
 	z-index: 3;
 }
 .header-content ul ul ul{
