@@ -202,7 +202,7 @@ nav ul li ul li {
 		  border-bottom:1px solid grey;
 		  border-left:1px solid grey;
 		  }
-
+<
 		  @media(max-width:960px){
 			.container{
 			  padding-right:3rem;
@@ -221,7 +221,7 @@ body{
     height: 100vh;
 }
 .header-content{
-    width: 860px;
+    width: 1000px;
     margin: 0 auto;
 }
 .header-content ul{
