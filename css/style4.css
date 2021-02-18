@@ -214,7 +214,7 @@ body{
     height: 100vh;
 }
 .header-content{
-    width: 2000px;
+    width: 150%;
     margin: 0 auto;
 }
 .header-content ul{
@@ -242,6 +242,7 @@ body{
 }
 .header-content ul ul{
     display: none;
+	top: 0px;
 	z-index: 3;
 }
 .header-content ul li:hover > ul{
