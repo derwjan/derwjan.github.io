@@ -220,6 +220,7 @@ body{
 .header-content ul{
     list-style: none;
     margin-top: 2%;
+	z-index: 1;
 }
 .header-content ul li{
     background: #262626;
@@ -233,18 +234,22 @@ body{
     font-size: 14px;
     position: relative;
     font-family:Georgia, 'Times New Roman', Times, serif;
+	z-index: 1;
 }
 .header-content ul li:hover{
     background: crimson;
+	z-index: 2;
 }
 .header-content ul ul{
     display: none;
 }
 .header-content ul li:hover > ul{
     display: block;
+	z-index: 2;
 }
 .header-content ul ul ul{
     margin-left: 170px;
     top: 0;
     position: absolute;
+	z-index: 2;
 }
