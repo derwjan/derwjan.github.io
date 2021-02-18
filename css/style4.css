@@ -229,7 +229,7 @@ body{
     height: 50px;
     line-height: 50px;
     text-align: center;
-    float: none;
+    float: left;
     color: #fff;
     font-size: 14px;
     position: relative;
