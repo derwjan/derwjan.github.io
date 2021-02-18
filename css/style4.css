@@ -33,7 +33,7 @@ h3{
 	/* background-image:url("img/da538bac62ee5e233cd82bb75b0d3c47ba0cdc03.jpg"); */
 
 body {
-	background-image: url(/img/216286.jpg);
+	background-image: url("../img/216286.jpg");
 	background-size:auto;
 	background-attachment: fixed;
 	color:#FFCC00;
@@ -110,7 +110,7 @@ body {
 }
 
 a:link {
-			font-size: small;
+			font-size: medium;
 			display: auto;
 			background-color:lightblue;
 			color:red;
@@ -208,7 +208,7 @@ nav ul li ul li {
 	color: darkorange;
 }
 body{
-    background-image: url("/img/216286.jpg");
+    background-image: url("../img/216286.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -239,7 +239,6 @@ body{
 }
 .header-content ul li:hover{
     background: crimson;
-	position: center;
 	z-index: 2;
 }
 .header-content ul ul{
@@ -252,6 +251,7 @@ body{
 }
 .header-content ul ul ul{
     margin-left: 170px;
+    top: 0;
     position: absolute;
 	z-index: 3;
 }
