@@ -238,7 +238,7 @@ body{
 }
 .header-content ul li:hover{
     background: crimson;
-	z-index: 2;
+	z-index: 1;
 }
 .header-content ul ul{
     display: none;
