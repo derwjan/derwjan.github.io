@@ -50,3 +50,31 @@
     position: absolute;
     }
     
+
+    .p {
+        color: darkorange;
+    
+        h1 {
+            border-color: red;
+            display: block;
+            font-size: 2em;
+            background-color:transparent;
+            color:greenyellow;
+            margin-bottom: 1px;
+            padding: auto;
+            text-decoration: none;
+            font-size: 160%;	
+        }
+            
+        h2 {
+            background-color:green;
+            display: auto;
+            padding: auto;
+            text-decoration: none;
+            margin-bottom: 1px;
+            color: #030F27;
+            font-size: 130%;
+            }
+        h3{
+            color:transparent;
+            font-size: 0;
