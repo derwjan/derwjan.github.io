@@ -110,6 +110,7 @@ body {
 }
 
 a:link {
+			font-size: small;
 			display: auto;
 			background-color:lightblue;
 			color:red;
