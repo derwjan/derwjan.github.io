@@ -223,7 +223,7 @@ body{
 	z-index: 1;
 }
 .header-content ul li{
-    background: #262626;
+    background: transparent;
     width: 170px;
     border: 1px solid #fff;
     height: 50px;
