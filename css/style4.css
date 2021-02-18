@@ -202,13 +202,6 @@ nav ul li ul li {
 		  border-bottom:1px solid grey;
 		  border-left:1px solid grey;
 		  }
-<
-		  @media(max-width:960px){
-			.container{
-			  padding-right:3rem;
-			  padding-left:3rem;
-			}
-		  }
 
 .p {
 	color: darkorange;
