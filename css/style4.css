@@ -242,11 +242,11 @@ body{
 }
 .header-content ul ul{
     display: none;
-	top: 0px;
 	z-index: 3;
 }
 .header-content ul li:hover > ul{
     display: block;
+	top: 0px;
 	z-index: 3;
 }
 .header-content ul ul ul{
