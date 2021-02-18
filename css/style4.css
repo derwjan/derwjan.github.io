@@ -219,7 +219,7 @@ body{
 }
 .header-content ul{
     list-style: none;
-    margin-top: 2%;
+    margin-top: 1%;
 	z-index: 1;
 }
 .header-content ul li{
