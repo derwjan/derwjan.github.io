@@ -36,7 +36,7 @@ html {
 
 header {
   background: #33455e;
-  position: fixed;
+  position: static;
   top: 0;
   width: 100%;
   text-align: right;
