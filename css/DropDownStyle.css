@@ -36,7 +36,7 @@ html {
 
 header {
   background: #33455e;
-  position: static;
+  position: fixed;
   top: 0;
   width: 100%;
   text-align: right;
@@ -74,7 +74,7 @@ header nav#normal ul li {
 header nav#normal ul li a {
   display: inline-block;
   padding: 2.17rem;
-  float: left;
+  float: none;
   min-width: 12rem;
   text-align: center;
   font-size: 2rem;
