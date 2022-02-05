@@ -1,0 +1,16 @@
+body    {
+        background-image: url("/img/216286.jpg");
+        }
+
+h1      {
+        color: lightblue;
+        margin: auto;
+        }
+
+h2      {
+        color:lightblue
+        }
+p       {
+        color:red;
+        }
+}
