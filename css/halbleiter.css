@@ -1,16 +1,55 @@
 body    {
-        background-image: url("/img/216286.jpg");
+        background-image: url("/img/216286.jpg");   
+        height: auto;
+        width: auto;
         }
 
 h1      {
         color: lightblue;
         margin: auto;
+        display: block;
+	    font-size: 2em;
+        font-size: 50px;
         }
 
 h2      {
-        color:lightblue
+        color:blue;
+        display: inline-block;
+        background-color: black;
         }
 p       {
         color:red;
         }
+ul      {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+li      {
+        float: left;
+        color: white;
+        }
+li a    {
+        display: inline-block;
+        padding: 8px;
+        background-color: gray;
+        }
+
+        li a1   {
+            display: inline-block;
+            padding: 8px;
+            background-color: red;
+                }
+        li a2   {
+            display: inline-block;
+            padding: 8px;
+            background-color: green;
+                }
+        li a3   {
+            display: inline-block;
+            padding: 8px;
+            background-color: blue;
+                }
+            
 }
