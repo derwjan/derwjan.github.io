@@ -1,9 +1,8 @@
 body    {
         background-image: url("/img/216286.jpg");   
-        height: auto;
-        width: auto;
-        }
-        
+        background-size: cover;
+        background-repeat: no-repeat;}
+
 h1      {
         color: lightblue;
         margin: auto;
