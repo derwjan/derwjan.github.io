@@ -13,10 +13,22 @@ h1      {
         }
 
 h2      {
+        color:lightgreen;
+        display: inline-block;
+        background-color: black;
+        }
+h3      {
+        color:lightblue;
+        display: inline-block;
+        background-color: black;
+        }
+h4      {
         color:blue;
         display: inline-block;
         background-color: black;
         }
+
+
 p       {
         color:red;
         }
