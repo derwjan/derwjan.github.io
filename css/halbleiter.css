@@ -2,6 +2,9 @@ body    {
         background-image: url("/img/holographic-circuit-board-0amzahbmmp2bg9u6.jpg");   
         background-size: cover;
         background-repeat: no-repeat;
+        padding: .5em;
+        padding-left: calc((100% -20em) / 8);
+        padding-right: calc((100% -20em) / 8);
         }
 
 h1      {
