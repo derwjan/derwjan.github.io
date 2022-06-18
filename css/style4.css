@@ -125,11 +125,11 @@ a:visited{
 }
 
 a:focus {
-	color:darkred;
+	color:red;
 }
 
 a:hover {
-	background-color: red;
+	background-color:green;
 	color:gold;
 }
 
