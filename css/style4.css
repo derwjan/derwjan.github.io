@@ -14,7 +14,9 @@ h1,h2,... sind Elementselektoren
 	margin-bottom: 1px;
 	padding: auto;
 	text-decoration: none;
-	font-size: 160%;	
+	font-size: 160%;
+	margin-left: 50%;
+	margin-top: 7%;	
 }
 	
 h2 {
@@ -40,6 +42,7 @@ body {
 	font-family:Tahoma;
 	font-size:110%;
 	overflow-x:hidden;
+	margin-left: -12cm;
 }
 
 .v-header{
