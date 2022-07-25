@@ -7,7 +7,8 @@ h1,h2,... sind Elementselektoren
  
  h1 {
 	border-color: red;
-	display: block;
+	display: flex;
+	justify-content: center;
 	font-size: 2em;
 	background-color:transparent;
 	color:greenyellow;
@@ -16,7 +17,8 @@ h1,h2,... sind Elementselektoren
 	text-decoration: none;
 	font-size: 160%;
 	margin-left: 50%;
-	margin-top: 7%;	
+	margin-top: 7%;
+	font-weight: bold;	
 }
 	
 h2 {
