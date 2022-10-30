@@ -79,11 +79,11 @@ body {
 }
 
 .header-overlay {
-    height: 100vh;
+    height: 100px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
     background: transparent;
     opacity: 0.85;
